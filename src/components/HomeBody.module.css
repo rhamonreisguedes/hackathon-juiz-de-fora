@@ -19,23 +19,19 @@
     border: transparent;
     font-size: 2rem;
     background-color: #BEBEBE;
-    border: 1px solid transparent;
 }
 
-.input:active{
-    border: 1px solid black;
-}
 
 .btnBuscar{
     background-color: aqua;
     padding: 10px;
-    border: transparent 1px solid;
     border-radius: 5px;
-    font-size: 2rem;
+    border: transparent 1px solid;
+    font-size: 1.8rem;
     background-color: #BEBEBE;
     margin: 0.1em;
 }
 
 .btnBuscar:hover{
-    border: black 1px solid;
+    border: 1px solid black;
 }

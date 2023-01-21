@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./HomeBody.module.css";
 import { useState } from "react";
+import { BsSearch } from "react-icons/bs";
 
 const HomeBody = () => {
   const [search, setSearch] = useState("");
@@ -26,7 +27,7 @@ const HomeBody = () => {
             placeholder='Pesquisar...'
           />
         </label>
-        <button className={styles.btnBuscar}onClick={buscar}>Buscar</button>
+        <button className={styles.btnBuscar} onClick={buscar}> < BsSearch /></button>
       </form>
     </div>
   );
