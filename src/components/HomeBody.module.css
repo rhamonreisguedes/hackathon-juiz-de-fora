@@ -13,8 +13,8 @@
 }
 
 .input{
-    padding: 10px;
-    border-radius: 5px;
+    padding: 13px;
+    border-radius: 15px;
     width: 20rem;
     border: transparent;
     font-size: 2rem;
@@ -25,7 +25,7 @@
 .btnBuscar{
     background-color: aqua;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: transparent 1px solid;
     font-size: 1.8rem;
     background-color: #BEBEBE;
