@@ -1,0 +1,41 @@
+.body{
+    background-image: url("../images/backgroundImage.png");
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form{
+    padding-top: 5rem;
+}
+
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 20rem;
+    border: transparent;
+    font-size: 2rem;
+    background-color: #BEBEBE;
+    border: 1px solid transparent;
+}
+
+.input:active{
+    border: 1px solid black;
+}
+
+.btnBuscar{
+    background-color: aqua;
+    padding: 10px;
+    border: transparent 1px solid;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: #BEBEBE;
+    margin: 0.1em;
+}
+
+.btnBuscar:hover{
+    border: black 1px solid;
+}

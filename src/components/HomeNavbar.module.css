@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    /* min-height: 10vh; */
+    font-size: 20px;
+    align-items: center;
+}
+
+.middle ul{
+    list-style: none;
+    display: flex;
+}
+
+.middle ul li{
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+}
+
+.middle ul li:hover{
+    border-bottom: 1px solid black;
+}
+
+.logout{
+    padding: 10px;
+}
+
+.logoImg{
+    width: 100px;
+}
