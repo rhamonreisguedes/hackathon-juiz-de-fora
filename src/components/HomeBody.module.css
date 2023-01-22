@@ -35,3 +35,10 @@
 .btnBuscar:hover{
     border: 1px solid black;
 }
+
+.found{
+    color: red;
+    font-size: 25px;
+    font-weight: 500;
+}
+
