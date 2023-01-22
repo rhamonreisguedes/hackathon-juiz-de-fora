@@ -6,23 +6,21 @@ import { BsSearch } from "react-icons/bs";
 const HomeBody = () => {
   const [search, setSearch] = useState("");
   const [notFound, setNotFound] = useState(false);
-  const [pacientes] = useState(['1','2','3']);
+  const [pacientes] = useState([]);
 
   const buscar = () => {
-   if(pacientes.filter((item) => item === search).length > 0){
-    console.log(search)
-   }else{
-    setNotFound(true);
-    setSearch('');
-   }
+    if (pacientes.filter((item) => item === search).length === 0) {
+      setNotFound(true);
+      setSearch("");
+    }
   };
 
   const digitar = (e) => {
-    if(notFound){
+    if (notFound) {
       setNotFound(false);
     }
     setSearch(e.target.value);
-  }
+  };
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -44,7 +42,11 @@ const HomeBody = () => {
         <button className={styles.btnBuscar} onClick={buscar}>
           <BsSearch />
         </button>
-        {notFound && <p className={styles.found}>Paciente não encontrado.</p>}
+        {notFound ? (
+          <p className={styles.found}>Paciente não encontrado.</p>
+        ) : (
+          ""
+        )}
       </form>
     </div>
   );
